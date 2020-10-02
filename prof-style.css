@@ -1,0 +1,187 @@
+html body
+{
+	font-family: 'Tajawal', sans-serif;
+	
+}
+
+/*Nvigation Bar*/
+
+.container-fluid .logo-txt table tr td span
+{
+	color: #b1a35a !important;
+	font-weight: bolder;
+}
+.main-nav
+{
+	border-bottom: 2px solid #005086 ;
+}
+.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 , .logo-txt table tr td span #lblDonateAmountErr1
+{
+	font-size: 20px !important;
+	margin-top: 3rem !important;
+}
+/* 6f0000*/
+
+.container-fluid .logo-sec .img2-logo-sec
+{
+	width: 130px ;
+}
+@media (max-width: 992px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		width: 120px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		width: 50px ;
+	}
+	.container-fluid .logo-sec
+	{
+		justify-content: center;
+		align-items: center;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0
+	{
+		font-size: 20px !important;
+		margin-top: 3rem !important;
+	}
+	.container-fluid .logo-txt
+	{
+		justify-content : center !important;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.container-fluid .logo-sec .img2-logo-sec
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-sec .img1-logo-sec 
+	{
+		margin-top: 17px ;
+	}
+	.container-fluid .logo-txt table tr td span #lblDonateAmountErr0 
+	{
+		font-size: 15px !important;
+		font-weight: bold !important;
+	}
+	.container-fluid .logo-txt table tr td span #Label1 , .container-fluid .logo-txt table tr td span #Label2
+	{
+		font-weight: lighter !important;
+		font-size: 13px !important;
+	}
+	.logo-txt table tr td span #lblDonateAmountErr1
+	{
+		font-size: 20px !important;
+		font-weight: bold !important;
+	}
+	.logo-txt table tr td span #Label1-1 , .logo-txt table tr td span #Label2-1
+	{
+		font-weight: lighter !important;
+		font-size: 15px !important;
+	}
+	
+}
+
+.side-nav
+{
+	border-left: 2px solid #b1a35a  ;
+	width: 300px ;
+	height: 75vh ;
+	position: absolute;
+	right: 0px ;
+	transition: 1s ;
+}
+.side-nav .header 
+{
+	color: #005086 ; 
+}
+.side-nav hr
+{
+	background-color: #DCDCDC
+}
+
+.side-nav .slide-bar-content
+{
+	width: 80% ;
+	border-left: 2px solid #005086  ;
+}
+.side-nav .slide-bar-content  
+{
+	color: #005086 ;
+	font-size: 17px ;
+}
+.side-nav .slide-bar-content i
+{
+	color: #b1a35a ;
+	border: 1px solid #DCDCDC;
+	padding: 5px ;
+	border-radius: 50% ;
+}
+.side-nav-btn .fa-bars
+{
+	position: absolute;
+	right: 10px ;
+	font-size: 30px ;
+	color: darkred ;
+	display: none;
+	cursor: pointer;
+}
+
+
+label #cancel
+{
+	position: absolute;
+	right: 10px ;
+	font-size: 30px ;
+	color: darkred ;
+	display: none;
+	cursor: pointer;
+}
+label #btn
+{
+	position: absolute;
+	right: 10px ;
+	font-size: 30px ;
+	color: darkred ;
+	display: none;
+	cursor: pointer;
+}
+#check 
+{
+	display: none ;
+}
+#check:checked ~ .side-nav
+{
+	display: block;
+}
+#check:checked ~  label #btn
+{
+	display: none;
+	user-select: none;
+}
+#check:checked ~  label #cancel
+{
+	display: inline;
+	color : darkred;
+	user-select: none;
+}
+@media (max-width: 767px)
+{
+	.side-nav
+	{
+		display: none;
+	}
+	label #btn
+	{
+		display: block;
+	}
+}
+.active-nav
+{
+	right: 0px ;
+}
+
+/*/Navigation Bars*/
